@@ -4,6 +4,7 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
+@SuppressWarnings("deprecation")
 public class Service2 extends IntentService {
     private final static String TAG = Service2.class.getSimpleName();
     public final static String EXTRA_MYARG = "MYARG";
